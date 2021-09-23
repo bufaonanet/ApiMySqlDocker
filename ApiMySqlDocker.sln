@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiMySqlDocker", "ApiMySqlDocker\ApiMySqlDocker.csproj", "{6A77533E-6FFB-4341-86E9-40BB591A7B8B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{ADE54812-2A31-4D65-8D9C-48CBB9C40955}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A77533E-6FFB-4341-86E9-40BB591A7B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A77533E-6FFB-4341-86E9-40BB591A7B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A77533E-6FFB-4341-86E9-40BB591A7B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A77533E-6FFB-4341-86E9-40BB591A7B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE54812-2A31-4D65-8D9C-48CBB9C40955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE54812-2A31-4D65-8D9C-48CBB9C40955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE54812-2A31-4D65-8D9C-48CBB9C40955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE54812-2A31-4D65-8D9C-48CBB9C40955}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD2CEE7B-EFD8-44F1-879B-26820B4C1C1D}
+	EndGlobalSection
+EndGlobal
